@@ -75,3 +75,33 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+
+/*Cotacto.html*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;/*Cambiar el tamaño del input*/
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+p{
+    color: red;
+}
+form p{
+    color: blue;
+}

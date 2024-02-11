@@ -23,14 +23,41 @@
     <main>
         <form>
             <label for="nombreApellidos">Nombres y Apellidos</label>
-            <input type="text" id="nombreApellidos">
+            <input type="text" id="nombreApellidos" class="input-padron">
 
             <label for="correoElectronico">Correo Electrónico</label>
-            <input type="text" id="correoElectronico">
+            <input type="text" id="correoElectronico" class="input-padron">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
 
+            <!-- Caja de texto que puede cambiar su tamaño -->
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="68" rows="10" class="input-padron"></textarea>
+
+            <div>
+                <p class="test" id="test">¿Cómo le gustaría que lo contactemos?</p>
+
+                <label for="radio-email"><input name="contacto" type="radio" value="email" id="radio-email">E-mail</label>
+                
+
+                <label for="radio-telefono"><input name="contacto" type="radio" value="telefono" id="radio-telefono">Teléfono</label>
+                
+
+                <label for="radio-whatsapp"><input name="contacto" type="radio" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                
+            </div>
+            
+            <div>
+                <p>¿En cuál horario prefiere ser atendido?</p>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Tarde</option>
+                </select> 
+            </div>
+
+            <label class="checkbox" for=""><input type="checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>
             <input type="submit" value="Enviar Formulario">
         </form>
     </main>
