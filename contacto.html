@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="caja">
-            <h1><img src="./Imagenes/logo.png" alt="Logo de la barbería Alura"></h1>
+            <h1><img src="./Imagenes/logo.png" alt="Logo de la barbería Alura header"></h1>
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
@@ -35,8 +35,8 @@
             <label for="mensaje">Mensaje</label>
             <textarea name="" id="mensaje" cols="68" rows="10" class="input-padron" required></textarea>
 
-            <div>
-                <p class="test" id="test">¿Cómo le gustaría que lo contactemos?</p>
+            <fieldset>
+                <legend class="test" id="test">¿Cómo le gustaría que lo contactemos?</legend>
 
                 <label for="radio-email"><input name="contacto" type="radio" value="email" id="radio-email">E-mail</label>
                 
@@ -46,23 +46,23 @@
 
                 <label for="radio-whatsapp"><input name="contacto" type="radio" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                 
-            </div>
+            </fieldset>
             
-            <div>
-                <p>¿En cuál horario prefiere ser atendido?</p>
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
                 <select>
                     <option>Mañana</option>
                     <option>Tarde</option>
                     <option>Noche</option>
                 </select> 
-            </div>
+            </fieldset>
 
             <label class="checkbox" for=""><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
             <input type="submit" value="Enviar Formulario">
         </form>
     </main>
     <footer>
-        <img src="./Imagenes/logo-blanco.png" alt="Logo barbería Alura">
+        <img src="./Imagenes/logo-blanco.png" alt="Logo barbería Alura footer">
         <p class="copyright">&#169; Copyright Barbería Alura - 2024</p>
     </footer>
 </body>
